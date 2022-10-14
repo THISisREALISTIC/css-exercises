@@ -9,12 +9,16 @@ body {
 }
 
 .header {
+  padding: 8px;
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  align-items: center;
 }
 
 .profile-image {
+  margin: 0 16px;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -27,9 +31,11 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  align-self: center;
 }
 
 button {
+  margin-left: auto;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -44,5 +50,11 @@ a {
 }
 
 ul {
+  padding: 0;
+  display: flex;
   list-style-type: none;
+}
+
+.links li {
+  margin: 0 16px;
 }
